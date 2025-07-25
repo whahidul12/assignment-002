@@ -5,7 +5,7 @@
 
 .our-plants p {
   width: 300px;
-  margin: 0 auto;
+  margin: 16px auto 28px;
 }
 
 .plant-cards {
@@ -42,7 +42,7 @@
 @media screen and (min-width: 576px) {
   .our-plants p {
     width: 500px;
-    margin: 0 auto;
+    margin: 16px auto 28px;
   }
 }
 
@@ -98,10 +98,10 @@
   }
 
   .plant-card img {
-    width: 270px;
+    width: 260px;
   }
 
   .primary-btn {
-    padding: 16px 80px;
+    padding: 16px 75px;
   }
 }
