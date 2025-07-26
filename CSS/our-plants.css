@@ -1,3 +1,9 @@
+.our-plants {
+  padding: 0 16px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .our-plants h2,
 .our-plants p {
   text-align: center;

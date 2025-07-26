@@ -19,9 +19,6 @@
 }
 
 body {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 16px;
   background-color: var(--bg-color);
 }
 

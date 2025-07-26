@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+.felx-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .orange {
   color: var(--orange);
 }
