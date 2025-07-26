@@ -11,6 +11,7 @@ header {
 .nav-img {
   width: 63px;
   height: 38px;
+  cursor: pointer;
 }
 
 .navbar-link {
@@ -20,6 +21,12 @@ header {
 .navbar-link ul li a {
   margin-right: 40px;
   color: var(--black-light);
+}
+
+.navbar-link ul li a:hover {
+  color: var(--black);
+  text-decoration: underline;
+
 }
 
 .navbar-link ul li .active {
@@ -32,6 +39,11 @@ header {
   margin-right: 10px;
 }
 
+.cart-btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+
+}
 
 .section-hero {
   flex-direction: column-reverse;
