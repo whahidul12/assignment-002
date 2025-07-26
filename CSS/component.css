@@ -10,6 +10,12 @@
   align-items: center;
 }
 
+.felx-start-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .orange {
   color: var(--orange);
 }
