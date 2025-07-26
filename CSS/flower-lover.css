@@ -1,0 +1,115 @@
+.section-flower-lover {
+  max-width: 1140px;
+  padding: 0 16px;
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flower-lover-image {
+  position: relative;
+  width: 360px;
+}
+
+.flower-lover-image .image-priimary {
+  width: 100%;
+  height: 100%;
+}
+
+.flower-lover-image .image-secondery {
+  position: absolute;
+  display: none;
+}
+
+.flower-lover-text {
+  width: 360px;
+}
+
+.flower-lover-text h2 {
+  margin: 18px auto 16px;
+}
+
+.flower-lover-text ul li {
+  list-style: disc;
+  margin: 16px 0 16px 16px;
+}
+
+@media screen and (min-width:700px) {
+  .flower-lover-text h2 {
+    font-size: 28px;
+  }
+
+  .flower-lover-text ul li {
+    font-size: 14px;
+  }
+
+  .flower-lover-text {
+    width: 50%;
+    padding-left: 20px;
+  }
+
+  .section-flower-lover {
+    margin: 210px auto 0;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .flower-lover-image .image-secondery {
+    display: block;
+    width: 186px;
+    height: 186px;
+    top: -90px;
+    right: -60px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .flower-lover-text h2 {
+    font-size: 40px;
+  }
+
+  .flower-lover-text ul li {
+    font-size: 20px;
+  }
+
+  .flower-lover-text {
+    width: 50%;
+    padding-left: 45px;
+  }
+
+  .flower-lover-image {
+    width: 420px;
+  }
+
+  .flower-lover-image .image-secondery {
+    display: block;
+    width: 215px;
+    height: 215px;
+    top: -95px;
+    right: -70px;
+  }
+}
+
+@media screen and (min-width:1100px) {
+  .flower-lover-text h2 {
+    font-size: 50px;
+  }
+
+  .flower-lover-text ul li {
+    font-size: 22px;
+  }
+
+  .flower-lover-image {
+    width: 540px;
+  }
+
+  .flower-lover-image .image-secondery {
+    display: block;
+    width: 286px;
+    height: 286px;
+    top: -125px;
+    right: -95px;
+  }
+}
